@@ -1,5 +1,7 @@
 # Heroku buildpack for Rust
 
+***Modified to work with Leptos apps***
+
 [![Build Status](https://travis-ci.org/emk/heroku-buildpack-rust.svg?branch=master)](https://travis-ci.org/emk/heroku-buildpack-rust)
 
 This is a Heroku buildpack for Rust with support for [cargo][] and [rustup][].  Features include:

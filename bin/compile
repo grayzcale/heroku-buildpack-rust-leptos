@@ -142,6 +142,9 @@ if [ $RUST_SKIP_BUILD -ne 1 ]; then
   tar -xvf cargo-binstall-x86_64-unknown-linux-musl.tgz
   cp cargo-binstall $CARGO_HOME/bin
 
+  cargo update
+  cargo clean
+
   cargo binstall cargo-leptos -y
 
   rustup target add wasm32-unknown-unknown
